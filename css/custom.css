@@ -29,9 +29,8 @@ hr {
     border-color: #999999;
 }
 
-.brand,
-.address-bar {
-    display: none;
+.brand{
+    background: url('../img/bg.jpg') no-repeat center center fixed;
 }
 
 .navbar-brand {
