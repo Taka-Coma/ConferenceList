@@ -30,7 +30,7 @@ hr {
 }
 
 .brand{
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/bg.jpg');
 }
 
 .navbar-brand {
