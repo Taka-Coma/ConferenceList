@@ -28,6 +28,10 @@ hr {
   border-color: #999999;
 }
 
+.gcalendar{
+	text-align: center;
+}
+
 .past_conf{
 	text-align:center;
 }
