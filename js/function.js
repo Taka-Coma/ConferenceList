@@ -2,18 +2,6 @@ function upcoming(){
 	$.get("https://conference-list-.herokuapp.com/upcoming.php", function(data){
 		cont = '<div class="col-lg-12">';
 		cont += data;
-		cont += '<br>';
-		cont += '<center>';
-		cont += '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>';
-		cont += '<!-- bottom -->';
-		cont += '<ins class="adsbygoogle"';
-		cont += ' style="display:inline-block;width:728px;height:90px"';
-		cont += ' data-ad-client="ca-pub-9318804591700644"';
-		cont += ' data-ad-slot="3485438810"></ins>';
-		cont += '<script>';
-		cont += '(adsbygoogle = window.adsbygoogle || []).push({});';
-		cont += '</script>';
-		cont += '</center>';
 		cont += '</div>';
 		$('.conferences')[0].innerHTML = cont;
 	});
@@ -36,20 +24,7 @@ function past(year){
 		}
 		cont += '</ul>';
 		cont += '</nav>';
-
 		cont += data;
-		cont += '<br>';
-		cont += '<center>';
-		cont += '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>';
-		cont += '<!-- bottom -->';
-		cont += '<ins class="adsbygoogle"';
-		cont += ' style="display:inline-block;width:728px;height:90px"';
-		cont += ' data-ad-client="ca-pub-9318804591700644"';
-		cont += ' data-ad-slot="3485438810"></ins>';
-		cont += '<script>';
-		cont += '(adsbygoogle = window.adsbygoogle || []).push({});';
-		cont += '</script>';
-		cont += '</center>';
 		cont += '</div>';
 		$('.conferences')[0].innerHTML = cont;
 	});
