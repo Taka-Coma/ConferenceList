@@ -28,6 +28,10 @@ hr {
   border-color: #999999;
 }
 
+.flag-icon{
+	margin-left: 15px;
+}
+
 .brand {
   display: inherit;
   margin: 0;
