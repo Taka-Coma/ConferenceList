@@ -37,7 +37,7 @@ hr {
   margin: 0;
   padding: 30px 0 10px;
   text-align: center;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 500;
   line-height: normal;
 	height: 100px;
@@ -58,6 +58,7 @@ hr {
 
 .conferences>div>div{
 	border:0.5px solid black;
+	font-size: 10pt; 
 }
 
 .odd{
@@ -131,6 +132,16 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
+	.brand {
+	  font-size: 4em;
+		height: auto;
+  	padding: 0;
+	}
+
+	.conferences>div>div{
+		font-size: 12pt; 
+	}
+
   .top-divider {
     margin-top: 0;
   }
